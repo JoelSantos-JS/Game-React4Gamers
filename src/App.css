@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: #282c34;
+}
+
+.App {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.App-header {
+    position: relative;
+}

@@ -1,0 +1,21 @@
+
+
+.one-img {
+    background-repeat: no-repeat;
+    animation: hero-animation 1s steps(4) infinite;
+    position: absolute;
+    bottom: 48px * 6;
+    
+}
+
+
+
+@keyframes hero-animation {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: 192px;
+    }
+}
