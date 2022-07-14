@@ -1,0 +1,21 @@
+
+
+.demon-img {
+    background-repeat: no-repeat;
+    animation: Demon-animation 1s steps(4) infinite;
+    position: absolute;
+    
+    
+}
+
+
+
+@keyframes Demon-animation {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -384px;
+    }
+}

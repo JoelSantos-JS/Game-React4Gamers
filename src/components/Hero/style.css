@@ -1,10 +1,11 @@
 
 
-.one-img {
+.hero-img {
     background-repeat: no-repeat;
     animation: hero-animation 1s steps(4) infinite;
     position: absolute;
-    bottom: 48px * 6;
+    background-position: 0  -38px;
+    
     
 }
 
@@ -16,6 +17,6 @@
     }
 
     to {
-        background-position-x: 192px;
+        background-position-x: -192px;
     }
 }

@@ -1,0 +1,23 @@
+
+
+.chest-img {
+    background-repeat: no-repeat;
+    animation: Chest-animation 1s steps(3) infinite;
+    background-image: url(../../../Assets/chess.png);
+    position: absolute;
+    
+    
+    
+}
+
+
+
+@keyframes Chest-animation {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -144px;
+    }
+}
